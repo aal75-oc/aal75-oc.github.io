@@ -150,6 +150,8 @@ a {
 }
 
 .content_menu_category_block_part_infos {
+	display:block;
+	cursor:pointer;
 	flex: 4;
 	padding:10px;
 }
@@ -187,7 +189,7 @@ a {
 	font-size:22px !important;
 }
 
-.content_menu_category_block_part:hover > .content_menu_category_block_part_check {
+.content_menu_category_block_part_infos:hover .content_menu_category_block_part_check {
     animation: fadeappear 2s;
     -moz-animation: fadeappear 2s;
     -webkit-animation: fadeappear 2s;
@@ -195,7 +197,7 @@ a {
 	display:inline;
 }
 
-.content_menu_category_block_part:hover > .content_menu_category_block_part_check i {
+.content_menu_category_block_part_infos:hover .content_menu_category_block_part_check i {
     animation: faderotate 2s;
     -moz-animation: faderotate 2s;
     -webkit-animation: faderotate 2s;
