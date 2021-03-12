@@ -481,7 +481,7 @@
     }
 }
 
-.content_restaurant_block_content_icon:hover > i {
+.content_restaurant_block_content_icon:hover > i, .page_header_menu:hover > i {
 	animation: iconfill 3s linear infinite;
 	background: linear-gradient(#EA72DA, #A55CDC);
 }
@@ -496,8 +496,7 @@
 	display:none;
 }
 
-
-.content_restaurant_block_content_icon:hover > .content_restaurant_block_content_icon_active {
+.content_restaurant_block_content_icon:hover > .content_restaurant_block_content_icon_active, .page_header_menu:hover > .content_restaurant_block_content_icon_active {
 	display:inline;
 	background: -webkit-gradient(linear, left top, left bottom, from(#BD64DB), to(#D76CDA));
 	-webkit-background-clip: text;
@@ -505,7 +504,7 @@
 	display: initial;
 }
 
-.content_restaurant_block_content_icon:hover > .content_restaurant_block_content_icon_inactive {
+.content_restaurant_block_content_icon:hover > .content_restaurant_block_content_icon_inactive, .page_header_menu:hover > .content_restaurant_block_content_icon_inactive {
 	display:none;
 }
 
