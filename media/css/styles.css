@@ -409,6 +409,14 @@ a {
   margin: 25px 0;
 }
 
+.content_using_list_part:hover {
+  background: #f5edff !important;
+}
+
+.content_using_list_part:hover > i {
+  color: #9356DC !important;
+}
+
 .content_using {
   background: #FFFFFF;
   padding: 20px;

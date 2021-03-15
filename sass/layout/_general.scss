@@ -385,6 +385,15 @@
 
 }
 
+
+.content_using_list_part:hover {
+    background: #f5edff !important;
+}
+
+.content_using_list_part:hover > i {
+    color: $colour-primary !important;
+}
+
 #page_content {
 }
 
