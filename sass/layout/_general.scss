@@ -65,7 +65,7 @@
     left: 0;
     position: fixed;
     display: block;
-    opacity: 0.9;
+    opacity: 1;
     background-color: #FFFFFF;
     z-index: 99;
     text-align: center;
@@ -185,18 +185,24 @@
         -o-animation: fadein 1s; /* Opera */
     	overflow:hidden;
         &_infos {
-        	display:block;
+        	display:inline-block;
         	cursor:pointer;
         	flex: 4;
         	padding:10px;
+            
+            white-space: nowrap;
+            overflow: hidden !important;
             & strong {
             	display:block;
             	font-weight:600;
             	font-size:15px;
             }
             & small {
+                display:inline-block;
             	font-weight:100;
             	font-size:13px;
+                overflow: hidden;
+                white-space: nowrap;
             }
         }
         &_price {

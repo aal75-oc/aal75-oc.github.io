@@ -80,7 +80,7 @@ a {
   left: 0;
   position: fixed;
   display: block;
-  opacity: 0.9;
+  opacity: 1;
   background-color: #FFFFFF;
   z-index: 99;
   text-align: center;
@@ -214,10 +214,12 @@ a {
   overflow: hidden;
 }
 .content_menu_category_block_part_infos {
-  display: block;
+  display: inline-block;
   cursor: pointer;
   flex: 4;
   padding: 10px;
+  white-space: nowrap;
+  overflow: hidden !important;
 }
 .content_menu_category_block_part_infos strong {
   display: block;
@@ -225,8 +227,11 @@ a {
   font-size: 15px;
 }
 .content_menu_category_block_part_infos small {
+  display: inline-block;
   font-weight: 100;
   font-size: 13px;
+  overflow: hidden;
+  white-space: nowrap;
 }
 .content_menu_category_block_part_price {
   float: right;
